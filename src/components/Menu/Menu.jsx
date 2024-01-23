@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState} from 'react'
 import Navbar from '../Navbar/Navbar'
 import Title from '../Title/Title'
 import MenuCard from '../MenuCard/MenuCard'
@@ -8,11 +8,14 @@ import Payment from '../Payment/Payment'
 
 
 const Menu = () => {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  console.log("selectedCategory", selectedCategory);
+
   return (
     <section className={styles.menu_section}>
         <Title />
-        <Categories />
-        <MenuCard />
+        <Categories selectedCategory={selectedCategory} onSelectCategory={setSelectedCategory} />
+        <MenuCard  selectedCategory={selectedCategory}/>
         <Payment />
         <Navbar />
     </section>

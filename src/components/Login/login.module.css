@@ -1,0 +1,21 @@
+.login_section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444749 ;
+}
+.login_form form {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+    background-color: #2E2D2B;
+    margin: 0px 12px 0px 12px;
+    padding: 12px;
+    color: #FFFDCE;
+}
+.login_form form button {
+    width: fit-content;
+}

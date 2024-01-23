@@ -1,5 +1,6 @@
 .categories_section {
     display: flex;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     gap: 12px;
@@ -7,8 +8,16 @@
     
 }
 
-.categories_section div {
+.category {
     background-color: #2E2D2B;
     padding: 8px;
     border-radius: 8px;
-}
+    font-size: 20px;
+    } 
+
+    .activeCategory{
+        background-color: #504b41;
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 20px;
+    }

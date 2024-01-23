@@ -1,20 +1,20 @@
 export const  linkSocial = [{
     src : "/#",
-    image: "../../../public/instagram.png"
+    image: "/instagram.png"
   },
   {
     src : "/#",
-    image: "../../../public/wsp.png"
+    image: "/wsp.png"
   },
   {
     src : "/#",
-    image: "../../../public/home.png"
+    image: "/home.png"
+  },
+  {
+    src : "/login",
+    image: "/login.png"
   },
   {
     src : "/#",
-    image: "../../../public/login.png"
-  },
-  {
-    src : "/#",
-    image: "../../../public/github.png"
+    image: "/github.png"
   },]
