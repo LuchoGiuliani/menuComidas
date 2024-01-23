@@ -24,6 +24,7 @@ const TotalFood = () => {
       return updatedFoods;
     });
   };
+  console.log("updateFood");
 
   return (
     <section className={styles.totalfood_section}>
@@ -33,7 +34,7 @@ const TotalFood = () => {
           <div>{food.price}</div>
           <div>{food.category}</div>
           <button onClick={() => handleToggleActive(index)}>
-            {food.activado ? "Desactivar" : "Activar"}
+            {food.activado ? false : true}
           </button>
         </div>
       ))}
