@@ -1,0 +1,14 @@
+.categories_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 8px;
+    
+}
+
+.categories_section div {
+    background-color: #2E2D2B;
+    padding: 8px;
+    border-radius: 8px;
+}

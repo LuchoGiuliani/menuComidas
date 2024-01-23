@@ -1,0 +1,15 @@
+.title_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.title_section h1 {
+    font-size: 48px;
+    font-weight: bold;  
+}
+.title_section h2 {
+    font-size: 24px;
+}

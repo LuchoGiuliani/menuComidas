@@ -1,0 +1,11 @@
+{
+    "comidas": [
+        {
+            "id": "1",
+            "name": "Pechuga Grille al verdeo",
+            "price": "3500",
+            "category": "Platos",
+            "activado": true
+        }
+    ]
+}
