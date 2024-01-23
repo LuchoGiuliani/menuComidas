@@ -1,6 +1,6 @@
 export const getFoods = async  () => {
     try {
-        const response = await fetch(`http://localhost:5173/comidas`);
+        const response = await fetch(`https://my-json-server.typicode.com/LuchoGiuliani/menuComidas/comidas`);
         console.log("response: " + response);
        
         if(response.ok) {

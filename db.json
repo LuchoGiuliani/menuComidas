@@ -6,6 +6,35 @@
             "price": "3500",
             "category": "Platos",
             "activado": true
+        },
+        {
+            "id": "2",
+            "name": "Ensalada Multicolor con atún",
+            "price": "2600",
+            "category": "Ensaladas",
+            "activado": true
+        },
+        {
+            "id": "3",
+            "name": "Tapa de nalga al horno con papas",
+            "price": "3900",
+            "category": "Platos",
+            "activado": true
+        },
+        {
+            "id": "4",
+            "name": "Pastel de papas",
+            "price": "3500",
+            "category": "Platos",
+            "activado": true
+        }, 
+        {
+            "id": "5",
+            "name": "Milanesa con papas fritas",
+            "price": "3500",
+            "category": "Minutas",
+            "activado": true
         }
+
     ]
 }

@@ -8,7 +8,7 @@ const MenuCard = () => {
   useEffect(() => {
     const fetchFoods = async () => {
       const data = await getFoods();
-      setFoods(data.comidas);
+      setFoods(data);
     };
 
     fetchFoods();
